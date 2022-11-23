@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(img/nature-weather.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  padding: 50px 20px 0 10px;
+  font-size: 26px;
+}
+
+h2 {
+  padding: 0 20px 20px 10px;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.container {
+  height: 800px;
+  width: 600px;
+  position: relative;
+  border: 3px solid gray;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.form-control {
+  font-size: 10px;
+}
+
+.current-location {
+  padding-top: 20px;
+}
+
+.current-temp {
+  font-size: 86px;
+  padding-top: 150px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.details {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.week-forecast {
+  padding-top: 50px;
+  padding-left: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.weather-icon-main {
+  display: block;
+  padding-left: 60px;
+}
+
+#current-temp-celsius {
+  font-size: 30px;
+  color: grey;
+  text-decoration: none;
+}
+
+#current-temp-celsius:hover {
+  font-weight: bold;
+}
+
+.divider {
+  font-size: 30px;
+  color: gray;
+}
+#current-temp-fahrenheit {
+  font-size: 30px;
+  color: gray;
+  text-decoration: none;
+}
+
+#current-temp-fahrenheit:hover {
+  font-weight: bold;
+}
